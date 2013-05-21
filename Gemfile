@@ -38,7 +38,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'devise'
-gem 'omniauth-twitter'
+#gem 'omniauth-twitter'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
 gem 'figaro'
