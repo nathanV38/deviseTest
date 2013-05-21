@@ -19,6 +19,7 @@
       <%= link_to "Login", new_user_session_path %>
 	  <%= link_to "SignIn with tw", user_omniauth_authorize_path(:twitter) %>
 	  <%= link_to "SignIn with fcb", user_omniauth_authorize_path(:facebook) %>
+	  <%= link_to "SignIn with google", user_omniauth_authorize_path(:google_oauth2) %>
     <% end %>
   </div>
 

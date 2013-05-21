@@ -803,8 +803,17 @@ dans user model:
 		end 
 	end
   end
+  
+NB: facebook et google+ ont l'email dans le json !!
+seul twitter ne l'a pas..
 --------------------------------
 
 facebook pb with SSL on windows:
 http://stackoverflow.com/questions/11028216/faradayerrorconnectionfailed-omniauth-facebook
 --------------------------------
+
+il faut:
+http://localhost:3000/users/auth/google_oauth2/callback
+
+avant:
+http://localhost:3000/auth/google_oauth2/callback
